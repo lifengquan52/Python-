@@ -1,0 +1,73 @@
+当你在这本书中参考“Python3”时，我们将引用等于或大于Python 3.6.0的任何版本的Python。
+
+安装在Windows上
+访问 https://www.python.org/downloads/ 并且下载最新的版本，是Python 3.5.1，安装过程与其他任何基于Windows的软件一样。
+
+请注意，如果你的Windows版本是在Vista之前，你应该下载Python3.4。
+
+请注意：确保检查你的选项 Add Python 3.5 to PATH
+
+你可以安装到本地，通过点击自定义安装，然后下一步到 C:\python35 (或其他合适的位置)进行安装。
+
+如果您之前没有选择添加Python 3.5 PATH选项，请选择将Python添加到环境变量。
+这与在第一个安装屏幕上将Python 3.5添加到PATH相同。
+
+你可以为所有用户选择安装器，没有关系。安装器是用于切换不同Python版本之间的安装。
+
+如果你的路径没有设置正确(by checking the Add Python 3.5 Path or Add Python to environment variables options)然后按照下一节（DOS提示）中的步骤进行修复。
+否则，请转到本文档的Windows上的“运行Python”提示符。
+请注意：对于那些已经了解编程的人，如果你熟悉Docker，请点击Python in Docker 以及Docker on Windows。
+
+[appropriate-适当的]
+DOS 提示
+如果您希望从Windows命令行(即Dos提示符)来使用Python，即DOS提示符，然后您需要适当设置PATH变量。
+
+
+对于Windows2000，XP，2003，请点击Control Panel -> System -> Advanced -> Environment Variables。点击PATH的变量名在系统变量中，然后选择 编辑 以及添加 C:\Python35 (请安正这个文件夹存在，它能够对应新版本的Python)到已经存在的末尾。当然，请使用适当的目录名称。
+
+对于老版本的Windows，打开C:\AUTOEXE.BAT 并且添加命令行 PATH=%PATH%;C:\Python35 然后重启系统。对于Windows NT，使用AUTOEXEC.NT 文件。
+
+对于Windows Vista：
+Click Start and choose Control Panel
+Click System, on the right you'll see "View basic information about your computer"
+On the left is a list of tasks, the last of which is Advanced system settings. Click that.
+The Advanced tab of the System Properties dialog box is shown. Click the Environment Variables button on the bottom right.
+In the lower box titled System Variables scroll down to Path and click the Edit button.
+Change your path as need be.
+Restart your system. Vista didn't pick up the system path environment variable change until I restarted.
+
+对于Windows7 和 8：
+Right click on Computer from your desktop and select Properties or click Start and choose Control Panel -> System and Security -> System. Click on Advanced system settings on the left and then click on the Advanced tab. At the bottom click on Environment Variables and under System variables, look for the PATH variable, select and then press Edit.
+Go to the end of the line under Variable value and append ;C:\Python35 (please verify that this folder exists, it will be different for newer versions of Python) to the end of what is already there. Of course, use the appropriate folder name.
+If the value was %SystemRoot%\system32; It will now become %SystemRoot%\system32;C:\Python36
+Click OK and you are done. No restart is required, however you may have to close and reopen the command line.
+
+对于Windows10：
+Windows Start Menu > Settings > About > System Info (this is all the way over to the right) > Advanced System Settings > Environment Variables (this is towards the bottom) > (then highlight Path variable and click Edit) > New > (type in whatever your python location is. For example, C:\Python35\)
+
+在Windows上面运行Python提示符：
+对于Windows用户，你可在命令行中运行解释器如果已正确设置PATH变量，请在命令行中输入。
+在Windows中开启terminal，点击开始按钮并且点击运行，在对话框中，输入[cmd]和点击[enter]键。
+然后，输入 [Python]来确保这些东西没有错误。
+
+在Mac OS X中进行安装
+对于Mac OS X用户，使用Homebrew：brew install python3
+为了验证这些，终端打开 [Command + Space] (打开搜索)，键入 Terminal 以及点击 [enter] 键。现在，运行 Python3 并且确保没有错误。
+
+在GNU/Linux 中进行安装
+对于GNU/Linux的用户，使用你的分布式包管理器来安装Python3到Debian&Ubuntu：sudo apt-get update && sudo apt-get install python3
+
+为了验证这些，通过Terminal来进行安装，或者Alt+F2来进行gnome-terminal的安装。如果还不起作用，请参考你的特定文档GNU/Linux。现在，安装 python3 并且确保这些没有问题。
+
+你可以通过运行如下代码查看Python的版本。
+$ python3 -V
+Python 3.6.0
+
+请注意：$是一个shell提示符，你的情况会有所不同，有一些操作系统上的东西会很不一样。
+
+CAUTION 警告
+你计算机上的输出可能不同，这取决于你在计算机上面安装的Python版本。
+
+小结 Summary
+从现在开始，我们会假设你已经在你的系统安装的Python。
+下一步，我们会编写我们的第一个Python编程。
