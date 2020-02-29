@@ -1,0 +1,98 @@
+[pleasantly-愉快的]
+关于Python About Python
+Python是可以声称既简单又强大的稀有语言之一。您会发现惊讶地发现，专注于问题的解决方案而不是编程语言的语法和结构是多么容易，这会让您感到惊喜
+
+[object-oriented 面向对象]
+[elegant-优雅的]
+官方关于Python的介绍是：
+Python是一个简单容易学的，有效地编程语言。它有高效的高级数据结构并且它是一个简单到高效的面向对象的编程。Python的优雅与法以及动态输入，连同其解释的性质。
+使他变成一个脚本和快速应用开发的理想语言。
+我会在下一个章节来讨论这些详细的功能。
+
+[Circus-马戏团]
+名字背后的故事
+Guido van Rossum，Python的创造者，这个名字来自于BBCshow中“Monty Python的飞行马戏团”。他并不特别喜欢像蛇那样将长肢缠绕并压死以杀死动物的食物。
+
+[strict-严格]
+[pseudo-code 伪代码]
+[concentrate on-专注]
+简单 simply
+Python是一个简单和简约的语言，阅读一个好的Python编程感觉就像阅读英语，虽然是很严格的英语！Python的这种伪代码性质是其最大的优势之一。它使你可以专注于解决问题，而不是语言本身。
+
+[already-mentioned 之前已经提到]
+简单的学习 simply learning
+你会看到，Python是非常容易上手学习的。Python具有极其简单的语法，如前所述。
+
+[constantly-持续的]
+免费和开源 free and open-source
+Python是一个FLOSS(Free/Libre 和 开源软件)，简单来说，你可以自由的分发此软件的副本，阅读它的源代码，改变它，并且在新的免费程序中使用它。FLOSS是一个机遇知识共享的社区概念。这就是为什么Python如此之好的原因-它已经被创建并且通过社区进行持续的提高，让人们看到更好的Python。
+
+高级别语言 High-level language
+当你在程序中编写Python时，你永远不需要去烦恼低级别的东西，例如管理程序使用的内存，等等。
+
+[open-source nature 开源性质]
+[ported 移植]
+
+Portable 随身携带
+由于其开源的性质,如果您足够小心避免使用任何依赖于系统的功能，则所有Python程序都可以在任何这些平台上运行，而无需进行任何更改。
+
+你可以在FreeBSD、Windows、Macintosh、Solaris、OS/2，Amiga，AROS，AS/400，BeOS，OS/390，Palm OS, QNX, VMS, Psion, Acorn RISC OS, VxWorks, PlayStation, Sharp Zaurus, Windows CE and PocketPC上面使用Python
+
+你甚至可以使用一个例如Kivy的平台为你的iPhone、iPad、Android创建游戏。
+
+[Interpreted-解释器]
+[binary-二进制]
+[compilation-编译]
+[Internally-内部的]
+[intermediate-中间件]
+[proper-正确的]
+[Portable-便携的]
+在这里需要一些解释。
+
+使用带有各种标志和选项的编译器，将用C或C ++之类的编译语言编写的程序从源语言（即C或C ++）转换为计算机使用的语言（二进制代码，即0和1）。当你运行程序的时候，连接器/加载器软件将程序从硬盘复制到内存中并开始运行。
+
+Python，从另一个方面说，它不需要编译到二进制。你只需要从源代码直接运行程序即可。
+
+内部的，Python将源码转换成一个字节码的中间形式让后将其翻译到本地的计算机语言，并且运行它。所有这一切，实际上，都会让使用Python更为简单，你不必单行编译程序，确保正确的库以及链接和加载等等。这同样会让你的Python编程语言更为便携，一旦你从你的python程序，一旦你将你的Python程序放置到另一个计算机中，他就可以工作了！
+
+[Object Oriented-面向面向对象]
+面向对象
+Python支持面向过程的编程同样也支持面向对象的编程，该程序围绕过程或功能的构建站看只是可重用的程序而已。在面向对象的语言中，该程序需围绕结合了数据和功能的对象，Python相比于大型的语言例如C++或者Java，有非常强但是非常简单的方式来做面向对象编程。
+
+Extensible 
+扩展性
+如果您需要关键的代码来非常快地运行，或者想让某个算法不被打开，你可以使用一部分C，C++作为代码并且使用你的Python程序。
+
+Embeddable 
+嵌入性
+你可以嵌入Python到你的C/C++程序中，为你的用户提供脚本功能。
+
+Extensive Libraries
+扩展库
+Python Python标准库确实是非常大的，它能够帮助你做一些正则表达，文档生成，单元测试，htreading，数据库，网络浏览器，CGI，FTP email，XML，XML-RPC，HTML，WAV文件，密码学，GUI（图形用户接口），以及其他系统有关的东西。请记住，所有这些东西都在Python上默认安装了。这称为Python“包含电池”的哲学。
+除了标准库之外，还有一些高质量的库，你可以从Python包索引中找到。
+
+[indeed-确实]
+总结
+Python是一个确切的激动人心和强有力的语言。它具有适当的性能和功能组合，能够让Python编程既有趣又轻松。
+
+[properly-正确的]
+Python3 vs Python2
+如果你对Python3和Python2版本的区别不感兴趣，你可以忽略它。但是请你注意你使用的是哪些版本，这本书是为Python3所写。
+
+请记住，一旦你有正确的理解和学习来使用一个版本，你就能够学习不同的版本内容。其中学习编程最难的部分就是理解Python语言本身。这就是我们这本书的目的，并且一旦你达成了这个目标，你就能够轻松地根据情况使用Python2或者Python3。
+
+对于Python2和Python3之间的不同，请查看：
+·The future of Python 2
+·Porting Python 2 Code to Python 3
+·Writing code that runs under both Python2 and 3
+·Supporting Python 3: An in-depth guide
+
+程序员说
+阅读诸如ESR之类的伟大黑客对Python所说的话，您可能会觉得很有趣：
+1.
+Eric S. Raymond is the author of "The Cathedral and the Bazaar" and is also the person who coined the term Open Source. He says that Python has become his favorite programming language. This article was the real inspiration for my first brush with Python.
+
+2.Bruce Eckel is the author of the famous 'Thinking in Java' and 'Thinking in C++' books. He says that no language has made him more productive than Python. He says that Python is perhaps the only language that focuses on making things easier for the programmer. Read the complete interview for more details.
+
+3.Peter Norvig is a well-known Lisp author and Director of Search Quality at Google (thanks to Guido van Rossum for pointing that out). He says that writing Python is like writing in pseudocode. He says that Python has always been an integral part of Google. You can actually verify this statement by looking at the Google Jobs page which lists Python knowledge as a requirement for software engineers.
